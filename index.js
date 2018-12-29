@@ -25,6 +25,7 @@ function johnLennonFacts() {
         loudBeatlesFacts.push(facts[i] +"!!!");
         i++;
     }
+    console.log(loudBeatlesFacts);
     return loudBeatlesFacts;
 }
 
