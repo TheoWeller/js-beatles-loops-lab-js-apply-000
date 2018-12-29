@@ -18,14 +18,14 @@ function johnLennonFacts() {
     "He was a choir boy and boy scout",
     "He hated the sound of his own voice"];
 
-    const newFacts = [];
+    const loudBeatlesFacts = [];
     var i = 0;
 
     while (i < facts.length) {
-        newFacts.push(facts[i] +"!!!");
+        loudBeatlesFacts.push(facts[i] +"!!!");
         i++;
     }
-    return newFacts;
+    return loudBeatlesFacts;
 }
 
 
