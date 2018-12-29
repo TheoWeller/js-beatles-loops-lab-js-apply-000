@@ -12,22 +12,14 @@ return allMusicians;
 };
 
 
-function johnLennonFacts() {
-    var facts = ["He was the last Beatle to learn to drive",
-    "He was never a vegetarian",
-    "He was a choir boy and boy scout",
-    "He hated the sound of his own voice"];
-
-    var loudBeatlesFacts = [];
-    var i = 0;
-
-    while (i < facts.length) {
-        loudBeatlesFacts.push(facts[i] + "!!!");
-        i++;
-    }
-    return loudBeatlesFacts;
-}
-
+function johnLennonFacts(factsArray) {
+	  var array = []
+	  for (var i = 0; i < factsArray.length; i++) {
+	    array.push(factsArray[i] + "!!!")
+	  }
+	  return array
+	}
+	
 
 function iLoveTheBeatles(num) {
     var love = [];
